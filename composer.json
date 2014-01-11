@@ -1,9 +1,9 @@
 {
-    "name": "polidog/chatwork-bundle",
+    "name": "polidog/ChatworkBundle",
     "type": "symfony-bundle",
     "description": "A Symfony2 bundle for the ChatWork Api library",
     "keywords": [ "chatwork", "api"],
-    "homepage": "https://github.com/phpforce/salesforce-bundle",
+    "homepage": "https://github.com/polidog/ChatworkBundle",
     "license": "MIT",
     "authors": [
         {
@@ -26,5 +26,5 @@
             "Polidog\\ChatworkBundle": ""
         }
     },
-    "target-dir": "Polidog/ChatworkBundle"
+    "target-dir": "polidog/ChatworkBundle"
 }
