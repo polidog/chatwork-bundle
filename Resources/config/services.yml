@@ -1,0 +1,3 @@
+services:
+  chatwork_client:
+    class: "\Chatwork\Client"

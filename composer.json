@@ -1,0 +1,30 @@
+{
+    "name": "polidog/chatwork-bundle",
+    "type": "symfony-bundle",
+    "description": "A Symfony2 bundle for the ChatWork Api library",
+    "keywords": [ "chatwork", "api"],
+    "homepage": "https://github.com/phpforce/salesforce-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryota Mochizuki",
+            "email": "polidogs@gmail.com",
+            "homepage": "http://www.polidog.jp"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "polidog/php-chatwork-api": "0.1.1"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": ">=2.2",
+        "phpunit/phpunit": "3.7.*",
+        "phake/phake": "1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Polidog\\ChatworkBundle": ""
+        }
+    },
+    "target-dir": "Polidog/ChatworkBundle"
+}
