@@ -1,5 +1,5 @@
 {
-    "name": "polidog/chatwork-Bundle",
+    "name": "polidog/chatwork-bundle",
     "type": "symfony-bundle",
     "description": "A Symfony2 bundle for the ChatWork Api library",
     "keywords": [ "chatwork", "api"],
