@@ -16,7 +16,7 @@ use Symfony\Component\DependencyInjection\Loader;
 use Symfony\Component\DependencyInjection\Reference;
 
 
-class ChatworkBundleExtension extends Extension
+class ChatworkExtension extends Extension
 {
 
     public function load(array $configs, ContainerBuilder $container)

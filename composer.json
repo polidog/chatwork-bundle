@@ -12,6 +12,11 @@
             "homepage": "http://www.polidog.jp"
         }
     ],
+    "autoload": {
+        "psr-0": {
+            "Polidog\\ChatworkBundle\\": "/polidog/ChatworkBundle"
+        }
+    },
     "require": {
         "php": ">=5.4.0",
         "polidog/php-chatwork-api": "0.1.1"
@@ -20,8 +25,5 @@
         "symfony/framework-bundle": ">=2.2",
         "phpunit/phpunit": "3.7.*",
         "phake/phake": "1.*"
-    },
-    "autoload": {
-        "psr-0": { "Polidog\\ChatworkBundle\\": "" }
     }
 }
