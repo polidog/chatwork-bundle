@@ -15,13 +15,12 @@ class Configuration implements ConfigurationInterface
 {
     public function getConfigTreeBuilder()
     {
-        return (new TreeBuilder())->root('chatwork')
+        $treeBuilder = new TreeBuilder();
+        $treeBuilder->root('chatwork')
             ->children()
-                ->arrayNode('apikey')
-                    ->children()
-                        ->scalarNode('token')->defaultValue("")
-                    ->end()
-                ->end()
+            ->scalarNode('apikey')->defaultNull()->end()
             ->end();
+
+        return $treeBuilder;
     }
 } 
