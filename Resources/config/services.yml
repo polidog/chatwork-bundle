@@ -1,3 +1,6 @@
+parameters:
+    chatwork.api.class: "Chatwork\Client"
+
 services:
-  chatwork_client:
-    class: "\Chatwork\Client"
+    chatwork.client:
+        class: "%chatwork.api.class%"
