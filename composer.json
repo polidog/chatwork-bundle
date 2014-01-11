@@ -22,9 +22,7 @@
         "phake/phake": "1.*"
     },
     "autoload": {
-        "psr-0": {
-            "Polidog\\ChatworkBundle": ""
-        }
+        "psr-0": { "Polidog\\ChatworkBundle\\": "" }
     },
-    "target-dir": "polidog/ChatworkBundle"
+    "target-dir": "Polidog/ChatworkBundle"
 }
