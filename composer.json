@@ -1,9 +1,9 @@
 {
-    "name": "polidog/ChatworkBundle",
+    "name": "polidog/chatwork-Bundle",
     "type": "symfony-bundle",
     "description": "A Symfony2 bundle for the ChatWork Api library",
     "keywords": [ "chatwork", "api"],
-    "homepage": "https://github.com/polidog/ChatworkBundle",
+    "homepage": "https://github.com/polidog/chatwork-bundle",
     "license": "MIT",
     "authors": [
         {
