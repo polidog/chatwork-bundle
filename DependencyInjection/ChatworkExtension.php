@@ -25,7 +25,7 @@ class ChatworkExtension extends Extension
         $config = $this->processConfiguration($configuration, $configs);
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
-        $loader->load('service.yml');
+        $loader->load('services.yml');
         if (!empty($config['chatwork']['apikey'])) {
             $container->get('chatwork_client')->authenticate($config['chatwork']['apikey']);
         }
